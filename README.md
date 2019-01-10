@@ -1,7 +1,7 @@
 ![JikanAuth](https://i.imgur.com/g4LT425.png)
 
 # JikanAuth - Unofficial MyAnimeList.net PHP AUTH API
-[![stable](https://img.shields.io/packagist/v/jikan-me/jikan.svg?style=flat)](https://packagist.org/packages/jikan-me/jikan) [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/jikan-me/jikan.svg)](http://isitmaintained.com/project/jikan-me/jikan "Average time to resolve an issue") [![Percentage of issues still open](http://isitmaintained.com/badge/open/jikan-me/jikan.svg)](http://isitmaintained.com/project/jikan-me/jikan "Percentage of issues still open") [![stable](https://img.shields.io/badge/PHP-^%207.1-blue.svg?style=flat)]() [![Discord Server](https://img.shields.io/discord/460491088004907029.svg?style=flat&logo=discord)](https://discord.gg/4tvCr36)
+[![stable](https://img.shields.io/packagist/v/jikan-me/jikan-auth.svg?style=flat)](https://packagist.org/packages/jikan-me/jikan-auth) [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/jikan-me/jikan-auth.svg)](http://isitmaintained.com/project/jikan-me/jikan "Average time to resolve an issue") [![Percentage of issues still open](http://isitmaintained.com/badge/open/jikan-me/jikan.svg)](http://isitmaintained.com/project/jikan-me/jikan "Percentage of issues still open") [![stable](https://img.shields.io/badge/PHP-^%207.1-blue.svg?style=flat)]() [![Discord Server](https://img.shields.io/discord/460491088004907029.svg?style=flat&logo=discord)](https://discord.gg/4tvCr36)
 
 
 JikanAuth is a PHP API for [MyAnimeList.net](https://myanimelist.net). It allows you to login and manage your anime and manga lists. It satisfies MyAnimeList's lack of API.
@@ -42,7 +42,7 @@ The user's list can be updated through MyAnimeList's undocumented internal API w
 ### Does this mean Jikan can do XYZ too?
 Yes, you can read messages, send messages, send friend requests, read notifcations, etc. 
 
-But I currently see no point in implementing these features because I currently don't see this being practical on a larger scale as a PHP library due to the **Reasons** I mentioned above.
+But I see no point in implementing these features because I currently don't see this being practical on a larger scale as a PHP library due to the **Reasons** I mentioned above.
 
 
 ## Getting Started
@@ -62,6 +62,11 @@ But I currently see no point in implementing these features because I currently 
     - Delete
 - Dependency Injection
     
+## Todo
+- Reuse session by storing it
+- Add possible Exceptions
+- Add possible responses (you don't get any response currently, it simply works)
+       
     
 ## DISCLAIMER
 - JikanAuth is not affiliated with MyAnimeList.net 

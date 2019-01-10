@@ -59,10 +59,6 @@ class MangaDeleteRequest implements RequestInterface
                 ]
             ]
         );
-
-        var_dump($response->getStatusCode());
-        var_dump((string)$response->getBody());
-
     }
 
     /**

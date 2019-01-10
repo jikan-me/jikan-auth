@@ -36,9 +36,9 @@ class MalClient
         if (empty($csrf)) {
             throw new \Exception('CSRF token could not be scraped');
         }
+
         $this->csrfToken = $csrf[1];
 
-        var_dump($this->csrfToken);
 
         $this->session = $response->getHeaderLine('Set-Cookie');
         $loginRequest->setSession($response->getHeaderLine('Set-Cookie'));
@@ -53,33 +53,31 @@ class MalClient
         $animeAddRequest->createRequest($this);
     }
 
-    public function removeAnime(AnimeDeleteRequest $animeRemoveRequest)
-    {
-        $animeRemoveRequest->createRequest($this);
-    }
-
-    public function updateAnime(AnimeEditRequest $animeUpdateRequest)
+    public function editAnime(AnimeEditRequest $animeUpdateRequest)
     {
         $animeUpdateRequest->createRequest($this);
     }
 
+    public function deleteAnime(AnimeDeleteRequest $animeRemoveRequest)
+    {
+        $animeRemoveRequest->createRequest($this);
+    }
 
     public function addManga(MangaAddRequest $mangaAddRequest)
     {
         $mangaAddRequest->createRequest($this);
     }
 
+    public function editManga(MangaEditRequest $mangaUpdateRequest)
+    {
+        $mangaUpdateRequest->createRequest($this);
+    }
 
-    public function removeManga(MangaDeleteRequest $mangaRemoveRequest)
+    public function deleteManga(MangaDeleteRequest $mangaRemoveRequest)
     {
         $mangaRemoveRequest->createRequest($this);
     }
 
-
-    public function updateManga(MangaEditRequest $mangaUpdateRequest)
-    {
-        $mangaUpdateRequest->createRequest($this);
-    }
 
     /**
      * @return mixed
