@@ -1,6 +1,26 @@
 This specification is for the undocumented MyAnimeList JSON API for managing lists - that's used by their own website.
 
 
+# Index
+- [Authentication](https://github.com/jikan-me/jikan-auth/blob/master/SPECIFICATION.md#authentication)
+  - [CSRF Token](https://github.com/jikan-me/jikan-auth/blob/master/SPECIFICATION.md#csrf-token)
+  - [Session/Cookie](https://github.com/jikan-me/jikan-auth/blob/master/SPECIFICATION.md#sessioncookie)
+- [GET](https://github.com/jikan-me/jikan-auth/blob/master/SPECIFICATION.md#get)
+- [POST](https://github.com/jikan-me/jikan-auth/blob/master/SPECIFICATION.md#post)
+  - **Anime**
+    - [Add](https://github.com/jikan-me/jikan-auth/blob/master/SPECIFICATION.md#anime--add)
+    - [Edit](https://github.com/jikan-me/jikan-auth/blob/master/SPECIFICATION.md#anime--edit)
+    - [Delete](https://github.com/jikan-me/jikan-auth/blob/master/SPECIFICATION.md#anime--delete)
+  - **Anime**
+    - [Add](https://github.com/jikan-me/jikan-auth/blob/master/SPECIFICATION.md#manga--add)
+    - [Edit](https://github.com/jikan-me/jikan-auth/blob/master/SPECIFICATION.md#manga--edit)
+    - [Delete](https://github.com/jikan-me/jikan-auth/blob/master/SPECIFICATION.md#manga--delete)
+- [Constants](https://github.com/jikan-me/jikan-auth/blob/master/SPECIFICATION.md#constants)
+  - [Status Constants](https://github.com/jikan-me/jikan-auth/blob/master/SPECIFICATION.md#status-constants)
+- [Contributing](https://github.com/jikan-me/jikan-auth/blob/master/SPECIFICATION.md#contributing)
+
+
+
 # Authentication
 You need 2 things to make this work.
 - CSRF token
