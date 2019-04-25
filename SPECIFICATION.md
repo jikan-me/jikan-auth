@@ -74,7 +74,7 @@ submit: '1'
 | Key | Type | Remarks |
 | --- | ----- | ---- |
 | `anime_id` | Integer | MAL ID of the anime |
-| `status` | Integer | [Anime Status Constants](https://github.com/jikan-me/jikan-auth/new/master#status-constants) |
+| `status` | Integer | [Anime Status Constants](https://github.com/jikan-me/jikan-auth/blob/master/SPECIFICATION.md#status-constants) |
 | `score` | Integer | 0 - 10 |
 | `num_watched_episodes` | Integer | <= 0 |
 | `csrf_token` | String | Scraped Token | 
@@ -90,7 +90,7 @@ submit: '1'
 | Key | Type | Remarks |
 | --- | ----- | ---- |
 | `anime_id` | Integer | MAL ID of the anime |
-| `status` | Integer | [Anime Status Constants](https://github.com/jikan-me/jikan-auth/new/master#status-constants) |
+| `status` | Integer | [Anime Status Constants](https://github.com/jikan-me/jikan-auth/blob/master/SPECIFICATION.md#status-constants) |
 | `score` | Integer | 0 - 10 |
 | `num_watched_episodes` | Integer | <= 0 |
 | `csrf_token` | String | Scraped Token | 
@@ -118,7 +118,7 @@ Where `%s` is the MAL ID of the anime.
 | Key | Type | Remarks |
 | --- | ----- | ---- |
 | `manga_id` | Integer | MAL ID of the manga |
-| `status` | Integer | [Manga Status Constants](https://github.com/jikan-me/jikan-auth/new/master#status-constants) |
+| `status` | Integer | [Manga Status Constants](https://github.com/jikan-me/jikan-auth/blob/master/SPECIFICATION.md#status-constants) |
 | `score` | Integer | 0 - 10 |
 | `num_read_volumes` | Integer | Volumes read; integer (<= 0) |
 | `num_read_chapters` | Integer | Chapters read; integer (<= 0) |
@@ -135,7 +135,7 @@ Where `%s` is the MAL ID of the anime.
 | Key | Type | Remarks |
 | --- | ----- | ---- |
 | `manga_id` | Integer | MAL ID of the manga |
-| `status` | Integer | [Manga Status Constants](https://github.com/jikan-me/jikan-auth/new/master#status-constants) |
+| `status` | Integer | [Manga Status Constants](https://github.com/jikan-me/jikan-auth/blob/master/SPECIFICATION.md#status-constants) |
 | `score` | Integer | 0 - 10 |
 | `num_read_volumes` | Integer | Volumes read; integer (<= 0) |
 | `num_read_chapters` | Integer | Chapters read; integer (<= 0) |
