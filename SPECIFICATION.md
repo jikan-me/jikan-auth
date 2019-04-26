@@ -11,7 +11,7 @@ This specification is for the undocumented MyAnimeList JSON API for managing lis
     - [Add](https://github.com/jikan-me/jikan-auth/blob/master/SPECIFICATION.md#anime--add)
     - [Edit](https://github.com/jikan-me/jikan-auth/blob/master/SPECIFICATION.md#anime--edit)
     - [Delete](https://github.com/jikan-me/jikan-auth/blob/master/SPECIFICATION.md#anime--delete)
-  - **Anime**
+  - **Manga**
     - [Add](https://github.com/jikan-me/jikan-auth/blob/master/SPECIFICATION.md#manga--add)
     - [Edit](https://github.com/jikan-me/jikan-auth/blob/master/SPECIFICATION.md#manga--edit)
     - [Delete](https://github.com/jikan-me/jikan-auth/blob/master/SPECIFICATION.md#manga--delete)
